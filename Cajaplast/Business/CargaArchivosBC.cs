@@ -9,11 +9,12 @@ namespace Cajaplast.Business
 {
     class CargaArchivosBC
     {
-        
+
         #region Methods
 
-       
-        public static void CargaArchivos(IWebDriver driver) {
+
+        public static void CargaArchivos(IWebDriver driver)
+        {
 
 
             driver.Navigate().GoToUrl("http://incursio-001-site1.itempurl.com/Soporte/CargaSoporte");
@@ -48,13 +49,12 @@ namespace Cajaplast.Business
 
 
 
-            }
-
-
         }
-        
 
 
-        #endregion
     }
+
+
+
+    #endregion
 }
